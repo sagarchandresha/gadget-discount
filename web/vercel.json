@@ -3,7 +3,7 @@
   "outputDirectory": ".",
   "builds": [
     {
-      "src": "./web/index.js",
+      "src": "index.js",
       "use": "@vercel/node",
       "config": {
         "includeFiles": ["./frontend/dist/**"]
